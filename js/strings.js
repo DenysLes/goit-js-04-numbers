@@ -52,10 +52,23 @@
 
 // Пошук в строці з методом includes()
 // Для того щоб віфільтрувати небажані слова
-const blacklistedWord1 = 'спам';
-const blacklistedWord2 = 'распродажа';
+// const blacklistedWord1 = 'спам';
+// const blacklistedWord2 = 'распродажа';
 
-const string1 ='Привет,я принц Абдул,это не спам,предлагаю тебе миллион';
-const string2 = 'Самая большая РАСПРОДАЖА этой недели,не пропустие!';
-const string3 ='Рекламная кампания #fatlivesmatter';
+// const string1 ='Привет,я принц Абдул,это не спам,предлагаю тебе миллион';
+// const string2 = 'Самая большая РАСПРОДАЖА этой недели,не пропустие!';
+// const string3 = 'Рекламная кампания #fatlivesmatter';
+// console.log(string1.includes(blacklistedWord1));
+// console.log(string1.includes(blacklistedWord2));
+
+// console.log(string2.includes(blacklistedWord1));
+
+// console.log(string2.toLowerCase().includes(blacklistedWord2));
+// або такий запис
+
+// const normalizedString2 = string2.toLowerCase();
+// console.log(normalizedString2.includes(blacklistedWord2));
+
+// console.log(string3.includes(blacklistedWord1));
+// console.log(string3.includes(blacklistedWord2));
 
