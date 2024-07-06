@@ -155,10 +155,10 @@
 // }
 // console.log(b);
 // error
-const a = 15;
+// const a = 15;
 
-function foo(a) {
-  console.log(a)
- var b = 22;
-}
-console.log(b);
+// function foo(a) {       
+//   console.log(a)
+//  var b = 22;
+// }
+// console.log(b);       
