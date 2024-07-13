@@ -14,15 +14,17 @@
 // Записати суму змінну totalSelary і вивести в консоль
 
 // створити змінні (вари)
-const employees = 4;
-const totalSalary = 0;
 const minSalary = 500;
 const maxSalary = 5000;
+const employees = 4;
+let totalSalary = 0;
+
 // перебрати всіх робочих
+
 // згенерувати випадкову зп
 // додати до тоталу
 // вивестив консоль
-for (let i = 0; i < 4; i += 1) {
-    console.log(i)
+for (let i = 1; i < 5; i += 1) {
+    console.log(`ЗП робітника номепр ${i} - `);
 }
-console.log(totalSalary);
+// console.log(totalSalary);
