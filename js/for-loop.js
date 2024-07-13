@@ -14,17 +14,51 @@
 // Записати суму змінну totalSelary і вивести в консоль
 
 // створити змінні (вари)
-const minSalary = 500;
-const maxSalary = 5000;
-const employees = 4;
-let totalSalary = 0;
+// const minSalary = 500;
+// const maxSalary = 5000;
+// const employees = 5;
+// let totalSalary = 0;
 
 // перебрати всіх робочих
 
-// згенерувати випадкову зп
+// for (let i = 1; i < employees; i += 1) {
+// // згенерувати випадкову зп
+//     const salary = Math.round(
+//         Math.random() * (maxSalary - minSalary) + minSalary);
+    
+//     console.log(`ЗП робітника номепр ${i} - ${salary}`);
 // додати до тоталу
-// вивестив консоль
-for (let i = 1; i < 5; i += 1) {
-    console.log(`ЗП робітника номепр ${i} - `);
+    // totalSalary += salary;
+
+// }
+// вивести в консоль
+// console.log('totalSalary: ', totalSalary);
+// ====================================
+// Напиши скрипт який підраховує  суму всіх парних чисел;
+// Які входять діапазо чисел в змінних від min до max;
+// Наприклад, якщо це min=0   max=5  ,то діапазон чисел 0-5,де є паорні числа 2  , 4  і їх сума  6;
+
+
+// вари
+const min = 5;
+const max = 13;
+let total = 0;
+
+// цикл фор від мін до макс зкроком в 1
+for (let i = min; i <= max; i += 1) {
+    console.log(i);
+    if (i % 2 !== 0) {
+        console.log(`Не парне число:`, i);
+
+    
+        // перевіряємо залишок від ділення
+        console.log(`парне число`, i);
+        total += i;
+    }
 }
-// console.log(totalSalary);
+// пишемом в суму
+console.log(`total:`, total);
+
+
+
+
