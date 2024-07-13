@@ -46,17 +46,18 @@ let total = 0;
 
 // цикл фор від мін до макс зкроком в 1
 for (let i = min; i <= max; i += 1) {
-    console.log(i);
+    // console.log(i);
+ // перевіряємо залишок від ділення
     if (i % 2 !== 0) {
         console.log(`Не парне число:`, i);
-
-    
-        // перевіряємо залишок від ділення
-        console.log(`парне число`, i);
-        total += i;
+        continue;
     }
+    // пишемом в суму    
+        console.log(`парне число:`, i);
+        total += i;
+    
 }
-// пишемом в суму
+
 console.log(`total:`, total);
 
 
