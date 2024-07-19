@@ -50,7 +50,11 @@ console.log(a === b);//true - посилання на один масив(одн
 const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 console.table(friends);
 const lastIndex = friends.length - 1;
+
+
 for (let i = 0; i <= lastIndex; i += 1) {
-    console.log(i);
+    // console.log(i);
+    friends[i] += `-${i}`;
 }
+console.table(friends);
 
