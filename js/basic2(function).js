@@ -11,17 +11,18 @@
 // add(20,30)
 // add(30, 50)
 
-const add = function (x, y) {
-    console.log(x);
-    console.log(y);
-    console.log(`add - выполняется функция`);
-    
-return x + y;
+//
+
+const fn = function (value) {
+    console.log(1);
+
+    console.log(2);
+
+    if (value < 50) {
+        return `Меньше чем 50`;
+    }
+            return `Больше чем 50`;
 }
 
-const r1 = add(5, 10);
-console.log(`r1 :` ,r1);
-const r2 = add(20, 30);
-console.log(`r2 :` ,r2);
-const r3 = add(30, 50);
-console.log(`r3 :` ,r3);
+console.log(`Результат фу-ции` ,fn(10));
+console.log(`Результат фу-ции` ,fn(1000));
