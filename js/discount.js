@@ -18,7 +18,7 @@ let discount = 0;
 
 if (totalSpent < 1000) {
 } else if (totalSpent >= 100 && totalSpent < 1000) {
-    ondeviceorientationabsolute.log(`Бронзовый партнёр,скидка 2%`);
+  console.log(`Бронзовый партнёр,скидка 2%`);
     discount = 0.02;
 } else if (totalSpent >= 1000 && totalSpent < 5000) {
     console.log(`Сереьрянфй партнёр,скидка 5%`);

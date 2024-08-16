@@ -16,5 +16,8 @@ let total = 0;
 const numbers = array1.concat(array2);
 for (const number of numbers) {
     total += number;
+     console.log(number)
+     console.log(numbers)
 }
  console.log(`total:`,total)
+

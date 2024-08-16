@@ -18,6 +18,7 @@
 const numbers = [51, 18, 24, 7, 85, 19];
 let bigestNumber = numbers[0];
 
+
 console.table(numbers);
 
 for (const number of numbers) {
@@ -28,3 +29,4 @@ bigestNumber = number;
 }
 
 console.log(`bigestNumber`, bigestNumber);
+console.log(numbers.includes(95)) //false  

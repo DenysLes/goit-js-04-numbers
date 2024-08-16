@@ -47,3 +47,7 @@ const a = 15 > 10 ? `так` : `ні`;
 const message = logins.includes(loginToFind) ? `так` : `ні`;
 
 console.log(message);
+
+
+
+
