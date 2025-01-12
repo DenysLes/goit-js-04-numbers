@@ -2,13 +2,13 @@
 - Напиши функцию с calculate total price
 - которая принимает массив цен(чисел) и возвращает их сумму
 */
-// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
-// let total = 0;
+const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+let total = 0;
 
-// for (const value of cart) {
-//     total += value;
-// }
-// console.log(`Total =`, total);
+for (const value of cart) {
+    total += value;
+}
+console.log(`Total =`, total);
 
 const calculateTotalPrice = function (items) {
     console.log(`items внутри функции `,items);
